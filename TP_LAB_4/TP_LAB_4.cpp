@@ -86,6 +86,7 @@ int main()
                 switch (type)
                 {
                 case 1: {
+                    if (size1 < 1) { system("cls"); cout << "Few arrays" << endl; break; }
                     cout << "Select number" << endl;
                     while (1) {
                         int number;
@@ -99,6 +100,7 @@ int main()
                     break;
                 }
                 case 2: {
+                    if (size2 < 1) { system("cls"); cout << "Few arrays" << endl; break; }
                     cout << "Select number" << endl;
                     while (1) {
                         int number;
@@ -127,6 +129,7 @@ int main()
                 switch (type)
                 {
                 case 1: {
+                    if (size1 < 1) { break; }
                     cout << "Select number" << endl;
                     while (1) {
                         int number;
@@ -136,6 +139,7 @@ int main()
                     break;
                 }
                 case 2: {
+                    if (size2 < 1) { system("cls"); cout << "Few arrays" << endl; break; }
                     cout << "Select number" << endl;
                     while (1) {
                         int number;
@@ -160,6 +164,7 @@ int main()
                 switch (type)
                 {
                 case 1: {
+                    if (size1 < 1) { system("cls"); cout << "Few arrays" << endl; break; }
                     cout << "Select number" << endl;
                     while (1) {
                         int number;
@@ -169,6 +174,7 @@ int main()
                     break;
                 }
                 case 2: {
+                    if (size2 < 1) { system("cls"); cout << "Few arrays" << endl; break; }
                     cout << "Select number" << endl;
                     while (1) {
                         int number;
@@ -193,6 +199,7 @@ int main()
                 switch (type)
                 {
                 case 1: {
+                    if (size1 < 1) { system("cls"); cout << "Few arrays" << endl; break; }
                     cout << "Select number" << endl;
                     while (1) {
                         int number;
@@ -202,6 +209,7 @@ int main()
                     break;
                 }
                 case 2: {
+                    if (size2 < 1) { system("cls"); cout << "Few arrays" << endl; break; }
                     cout << "Select number" << endl;
                     while (1) {
                         int number;
@@ -318,7 +326,7 @@ int main()
                 switch (type)
                 {
                 case 1: {
-                    if (size1 < 2) break;
+                    if (size1 < 2) { system("cls"); cout << "Few arrays" << endl; break; }
                     cout << "Select 1 number" << endl;
                     int number1, number2;
                     while (1) {
@@ -338,7 +346,7 @@ int main()
                     break;
                 }
                 case 2: {
-                    if (size2 < 2) break;
+                    if (size2 < 2) { system("cls"); cout << "Few arrays" << endl; break; }
                     cout << "Select 1 number" << endl;
                     int number1, number2;
                     while (1) {
